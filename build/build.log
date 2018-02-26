@@ -1,0 +1,288 @@
+Handling lib "rpc-service-config"...
+Handling lib "bt-service-config"...
+Handling lib "ca-bundle"...
+Handling lib "adc"...
+Handling lib "dht"...
+Handling lib "rpc-uart"...
+Handling lib "wifi"...
+Handling lib "rpc-service-fs"...
+Handling lib "mjs"...
+The --lib flag was not given for it, checking repository
+The --lib flag was not given for it, checking repository
+The --lib flag was not given for it, checking repository
+The --lib flag was not given for it, checking repository
+The --lib flag was not given for it, checking repository
+The --lib flag was not given for it, checking repository
+The --lib flag was not given for it, checking repository
+The --lib flag was not given for it, checking repository
+The --lib flag was not given for it, checking repository
+Prebuilt binary for "rpc-service-fs" already exists
+Prepared local dir: "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs"
+Handling lib "rpc-common"...
+The --lib flag was not given for it, checking repository
+Prebuilt binary for "rpc-service-config" already exists
+Prepared local dir: "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config"
+Prebuilt binary for "adc" already exists
+Lib "rpc-common" is already handled, skipping
+Prepared local dir: "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc"
+Prebuilt binary for "rpc-uart" already exists
+Prepared local dir: "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart"
+Lib "rpc-common" is already handled, skipping
+Prebuilt binary for "bt-service-config" already exists
+Prepared local dir: "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-service-config"
+Handling lib "bt-common"...
+The --lib flag was not given for it, checking repository
+Prebuilt binary for "dht" already exists
+Prepared local dir: "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht"
+Prebuilt binary for "ca-bundle" already exists
+Prepared local dir: "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle"
+Prebuilt binary for "bt-common" already exists
+Prepared local dir: "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common"
+Falling back to sources for "rpc-common" (failed to fetch prebuilt binary: got 404 status code when accessed https://github.com/mongoose-os-libs/rpc-common/releases/download/1.26/librpc-common-esp32.a)
+Prepared local dir: "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common"
+Lib "http-server" is optional, skipping
+Falling back to sources for "mjs" (failed to fetch prebuilt binary: got 404 status code when accessed https://github.com/mongoose-os-libs/mjs/releases/download/1.26/libmjs-esp32.a)
+Prepared local dir: "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs"
+Falling back to sources for "wifi" (failed to fetch prebuilt binary: got 404 status code when accessed https://github.com/mongoose-os-libs/wifi/releases/download/1.26/libwifi-esp32.a)
+Prepared local dir: "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi"
+The flag --module is not given for the module "mjs_module", going to use the repository
+The flag --repo is not given, going to use mongoose-os repository
+Sources: [/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen/deps_init.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/esp32/src/esp32_adc.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/mgos_bt.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/mgos_bt_gap.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32/esp32_bt.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32/esp32_bt_gap.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32/esp32_bt_gattc.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32/esp32_bt_gatts.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-service-config/src/esp32/esp32_bt_svc_config.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/src/mgos_ca_bundle.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/src/mgos_dht.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/src/mos_mjs.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/src/esp32_mjs.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc/mg_rpc.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc/mg_rpc_channel.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc/mg_rpc_channel_http.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc/mg_rpc_channel_ws.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mgos_rpc.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/src/mgos_service_config.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/src/mgos_service_filesystem.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/src/mgos_rpc_channel_uart.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/src/mgos_wifi.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/src/mjs_wifi.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/src/esp32_wifi.c]
+Include dirs: [/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include/esp32 /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include/mg_rpc /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/include]
+Binary libs: []
+Building...
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775" to "/app"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mongoose-os" to "/mongoose-os"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mongoose-os" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mongoose-os"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/esp32/src" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/esp32/src"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-service-config/src/esp32" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-service-config/src/esp32"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/src" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/src"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/src" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/src"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/src" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/src"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/src" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/src"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/src" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/src"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/src" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/src"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/src" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/src"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/src" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/src"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/src" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/src"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/include" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/include"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include/esp32" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include/esp32"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/include" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/include"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/include" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/include"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include/mg_rpc" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include/mg_rpc"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/include" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/include"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/include" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/include"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/include" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/include"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/include" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/include"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/include" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/include"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/fs" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/fs"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs/lib" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs/lib"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/mjs_fs" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/mjs_fs"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/mjs_fs" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/mjs_fs"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/mjs_fs" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/mjs_fs"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/mjs_fs" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/mjs_fs"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/fs" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/fs"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/fs" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/fs"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen"
+Docker arguments: run --name mos_build_2018-02-12T20-02-48-00_7770443222776186270 --rm -i -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-service-config/src/esp32:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-service-config/src/esp32 -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/include:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/include -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/fs:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/fs -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/mjs_fs:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/mjs_fs -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/src:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/src -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/src:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/src -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/src:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/src -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include/esp32:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include/esp32 -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/src:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/src -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/fs:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/fs -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mongoose-os:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mongoose-os -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/include:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/include -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/include:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/include -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs/lib:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs/lib -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/src:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/src -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include/mg_rpc:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include/mg_rpc -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/include:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/include -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/include:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/include -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/include:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/include -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/mjs_fs:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/mjs_fs -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/mjs_fs:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/mjs_fs -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32 -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/src:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/src -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/src:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/src -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/include:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/include -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mongoose-os:/mongoose-os -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/src:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/src -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/src:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/src -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/include:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/include -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/mjs_fs:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/mjs_fs -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/fs:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/fs -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775:/app -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/esp32/src:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/esp32/src -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src --user 0:0 docker.cesanta.com/esp32-build:3.0-rc1-r3 /bin/bash -c nice make '-j' '16' '-C' '/app' '-f' '/mongoose-os/fw/platforms/esp32/Makefile.build' 'all' 'MGOS_HAVE_CA_BUNDLE=1' 'MGOS_HAVE_RPC_UART=1' 'APP_FS_FILES=/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/fs/ca.pem /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_bitbang.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_config.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_events.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_gpio.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_grove.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_http.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_log.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_net.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_sys.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_timer.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_uart.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/init.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs/lib/api_dataview.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs/lib/api_file.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs/lib/api_math.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/mjs_fs/api_adc.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/mjs_fs/api_dht.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/mjs_fs/api_rpc.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/mjs_fs/api_wifi.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/fs/api_arch_uart.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/fs/api_esp32.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/fs/init.js' 'MGOS_HAVE_MJS=1' 'FW_DIR=build/fw' 'APP=higrow' 'MGOS_HAVE_ADC=1' 'APP_INCLUDES=/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include/esp32 /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include/mg_rpc /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/include' 'APP_CFLAGS=-DMGOS_HAVE_BT_SERVICE_CONFIG=1 -DMGOS_HAVE_MJS=1 -DMG_ENABLE_DNS_SERVER=1 -DMGOS_WIFI_ENABLE_AP_STA=1 -DMGOS_ENABLE_RPC_CHANNEL_WS=1 -DMGOS_HAVE_CA_BUNDLE=1 -DMGOS_HAVE_ADC=1 -DMGOS_ENABLE_SYS_SERVICE=1 -DMGOS_HAVE_RPC_UART=1 -DMGOS_HAVE_DHT=1 -DMGOS_HAVE_BT_COMMON=1 -DMGOS_ENABLE_RPC_CHANNEL_HTTP=1 -DMGOS_HAVE_RPC_SERVICE_FS=1 -DMGOS_HAVE_RPC_COMMON=1 -DMGOS_HAVE_RPC_SERVICE_CONFIG=1 -DMGOS_HAVE_WIFI=1' 'MGOS_HAVE_BT_COMMON=1' 'MGOS_HAVE_RPC_COMMON=1' 'MGOS_HAVE_WIFI=1' 'MGOS_HAVE_RPC_SERVICE_CONFIG=1' 'APP_BIN_LIBS=' 'GEN_DIR=/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen' 'MANIFEST_FINAL=/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen/mos_final.yml' 'APP_CONF_SCHEMA=/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen/mos_conf_schema.yml' 'MGOS_HAVE_DHT=1' 'APP_VERSION=1.0' 'APP_CXXFLAGS=-DMGOS_HAVE_RPC_COMMON=1 -DMGOS_HAVE_RPC_SERVICE_CONFIG=1 -DMGOS_HAVE_WIFI=1 -DMG_ENABLE_DNS_SERVER=1 -DMGOS_WIFI_ENABLE_AP_STA=1 -DMGOS_ENABLE_RPC_CHANNEL_WS=1 -DMGOS_HAVE_BT_SERVICE_CONFIG=1 -DMGOS_HAVE_MJS=1 -DMGOS_ENABLE_SYS_SERVICE=1 -DMGOS_HAVE_RPC_UART=1 -DMGOS_HAVE_DHT=1 -DMGOS_HAVE_CA_BUNDLE=1 -DMGOS_HAVE_ADC=1 -DMGOS_HAVE_BT_COMMON=1 -DMGOS_ENABLE_RPC_CHANNEL_HTTP=1 -DMGOS_HAVE_RPC_SERVICE_FS=1' 'FFI_SYMBOLS=' 'BUILD_DIR=/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs' 'ESP_IDF_SDKCONFIG_OPTS= CONFIG_BT_ENABLED=y CONFIG_BLUEDROID_ENABLED=y CONFIG_BTC_TASK_STACK_SIZE=6144 CONFIG_BLUEDROID_MEM_DEBUG= CONFIG_CLASSIC_BT_ENABLED= CONFIG_BT_DRAM_RELEASE=y CONFIG_GATTS_ENABLE=y CONFIG_GATTC_ENABLE=y CONFIG_BLE_SMP_ENABLE=y CONFIG_BT_STACK_NO_LOG= CONFIG_BT_ACL_CONNECTIONS=4 CONFIG_BTDM_CONTROLLER_RUN_CPU=0 CONFIG_SMP_ENABLE=y CONFIG_BT_RESERVE_DRAM=0x10000  CONFIG_ESP32_DEEP_SLEEP_WAKEUP_DELAY=500' 'ESP_IDF_EXTRA_COMPONENTS= bt' 'MGOS_WIFI_ENABLE_AP_STA=1' 'MGOS_HAVE_BT_SERVICE_CONFIG=1' 'MGOS_HAVE_RPC_SERVICE_FS=1' 'PLATFORM=esp32' 'APP_SOURCES=/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen/deps_init.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/esp32/src/esp32_adc.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/mgos_bt.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/mgos_bt_gap.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32/esp32_bt.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32/esp32_bt_gap.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32/esp32_bt_gattc.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32/esp32_bt_gatts.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-service-config/src/esp32/esp32_bt_svc_config.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/src/mgos_ca_bundle.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/src/mgos_dht.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/src/mos_mjs.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/src/esp32_mjs.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc/mg_rpc.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc/mg_rpc_channel.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc/mg_rpc_channel_http.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc/mg_rpc_channel_ws.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mgos_rpc.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/src/mgos_service_config.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/src/mgos_service_filesystem.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/src/mgos_rpc_channel_uart.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/src/mgos_wifi.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/src/mjs_wifi.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/src/esp32_wifi.c' 'FS_STAGING_DIR=build/fs' 'MGOS_PATH=/mongoose-os'
+make: Entering directory '/app'
+including /opt/Espressif/esp-idf/components/bootloader/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/bootloader_support/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/esp32/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/esptool_py/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/partition_table/Makefile.projbuild...
+/mongoose-os/fw/platforms/esp32/Makefile.build:181: warning: overriding recipe for target 'defconfig'
+/opt/Espressif/esp-idf/make/project_config.mk:71: warning: ignoring old recipe for target 'defconfig'
+/mongoose-os/fw/platforms/esp32/Makefile.build:181: warning: overriding recipe for target 'menuconfig'
+/opt/Espressif/esp-idf/make/project_config.mk:58: warning: ignoring old recipe for target 'menuconfig'
+make[1]: Entering directory '/opt/Espressif/esp-idf/components/bootloader/subproject'
+Target 'component-app_trace-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/app_trace/libapp_trace.a'
+Target 'component-bootloader_support-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader_support/libbootloader_support.a'
+Target 'component-app_update-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/app_update/libapp_update.a'
+Target 'component-cxx-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cxx/libcxx.a'
+Target 'component-driver-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver/libdriver.a'
+Target 'component-esp_adc_cal-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp_adc_cal/libesp_adc_cal.a'
+Target 'component-ethernet-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/ethernet/libethernet.a'
+Target 'component-expat-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/expat/libexpat.a'
+Target 'component-freertos-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/freertos/libfreertos.a'
+Target 'component-heap-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/heap/libheap.a'
+Target 'component-log-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/log/liblog.a'
+Target 'component-micro-ecc-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/micro-ecc/libmicro-ecc.a'
+Target 'component-newlib-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/newlib/libnewlib.a'
+Target 'component-nvs_flash-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/nvs_flash/libnvs_flash.a'
+Target 'component-pthread-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/pthread/libpthread.a'
+Target 'component-soc-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/soc/libsoc.a'
+Target 'component-spi_flash-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/spi_flash/libspi_flash.a'
+Target 'component-tcpip_adapter-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/tcpip_adapter/libtcpip_adapter.a'
+Target 'component-vfs-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/vfs/libvfs.a'
+Target 'component-xtensa-debug-module-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/xtensa-debug-module/libxtensa-debug-module.a'
+Target 'component-spiffs-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/spiffs/libspiffs.a'
+Target 'component-cryptoauthlib-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cryptoauthlib/libcryptoauthlib.a'
+Target 'component-cs_mbedtls-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cs_mbedtls/libcs_mbedtls.a'
+Target 'component-esp32-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/libesp32.a'
+Target 'component-wpa_supplicant-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/libwpa_supplicant.a'
+Target 'component-lwip-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/liblwip.a'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/mosapp'
+  GEN   /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen/mgos_config.c
+  GEN   /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen/ffi_exports.c
+including /opt/Espressif/esp-idf/components/esptool_py/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/bootloader_support/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/bootloader/subproject/main/Makefile.projbuild...
+Target 'component-log-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/log/liblog.a'
+Target 'component-spi_flash-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/spi_flash/libspi_flash.a'
+Target 'component-micro-ecc-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/micro-ecc/libmicro-ecc.a'
+Target 'component-bootloader_support-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/bootloader_support/libbootloader_support.a'
+Target 'component-soc-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/soc/libsoc.a'
+Target 'component-main-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/main/libmain.a'
+make[1]: Leaving directory '/opt/Espressif/esp-idf/components/bootloader/subproject'
+Target 'component-bt-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/libbt.a'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/ffi_exports.o
+CC mgos_debug.o
+CC mgos_net.o
+CC mgos_bitbang.o
+CC mgos_config_util.o
+CC mgos_core_dump.o
+CC mgos_dlsym.o
+CC mgos_event.o
+CC mgos_hal_freertos.o
+CC mgos_mmap_esp.o
+CC mgos_gpio.o
+CC mgos_init.o
+CC mgos_hw_timers.o
+CC mgos_mongoose.o
+CC mgos_sys_config.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen/mgos_config.o
+CC mgos_ro_vars.o
+CC mgos_system.o
+CC mgos_time.o
+CC mgos_timers.o
+CC mgos_uart.o
+CC mgos_utils.o
+CC mgos_vfs.o
+CC mgos_vfs_dev.o
+CC mgos_vfs_dev_ram.o
+CC mgos_vfs_fs_spiffs.o
+CC esp32_crypto.o
+CC esp32_debug.o
+CC esp32_exc.o
+CC esp32_fs.o
+CC esp32_fs_crypt.o
+CC esp32_vfs_dev_partition.o
+CC esp32_gpio.o
+CC esp32_hal.o
+CC esp32_hw_timers.o
+CC esp32_main.o
+CC esp32_mdns.o
+CC esp32_uart.o
+CC cs_crc32.o
+CC cs_dbg.o
+CC cs_file.o
+CC cs_rbuf.o
+CC frozen.o
+CC json_utils.o
+CC mongoose.o
+CC deps_init.o
+CC esp32_adc.o
+CC mgos_bt.o
+CC mgos_bt_gap.o
+CC esp32_bt.o
+CC esp32_bt_gap.o
+CC esp32_bt_gattc.o
+CC esp32_bt_gatts.o
+CC esp32_bt_svc_config.o
+CC mgos_ca_bundle.o
+CC mgos_dht.o
+CC mos_mjs.o
+CC mjs.o
+CC esp32_mjs.o
+CC mg_rpc.o
+CC mg_rpc_channel.o
+CC mg_rpc_channel_http.o
+CC mg_rpc_channel_ws.o
+CC mgos_service_config.o
+CC mgos_rpc.o
+CC mgos_service_filesystem.o
+CC mgos_rpc_channel_uart.o
+CC mgos_wifi.o
+CC mjs_wifi.o
+CC esp32_wifi.o
+  GEN   /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen/mg_build_info.c
+CC mg_build_info.o
+  GEN   /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen/build_info.c
+CC build_info.o
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/mosapp/libmosapp.a
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/mosapp'
+Target 'component-mosapp-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/mosapp/libmosapp.a'
+esptool.py v2.1
+  Generating breakdown
+  CP    /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/fs/ca.pem -> build/fs
+  CP    /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_bitbang.js -> build/fs
+  CP    /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_config.js -> build/fs
+  CP    /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_events.js -> build/fs
+  CP    /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_gpio.js -> build/fs
+  CP    /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_grove.js -> build/fs
+  CP    /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_http.js -> build/fs
+  CP    /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_log.js -> build/fs
+  CP    /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_net.js -> build/fs
+  CP    /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_sys.js -> build/fs
+  CP    /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_timer.js -> build/fs
+  CP    /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_uart.js -> build/fs
+  CP    /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/init.js -> build/fs
+  CP    /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs/lib/api_dataview.js -> build/fs
+  CP    /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs/lib/api_file.js -> build/fs
+  CP    /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs/lib/api_math.js -> build/fs
+  CP    /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/mjs_fs/api_adc.js -> build/fs
+  CP    /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/mjs_fs/api_dht.js -> build/fs
+  CP    /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/mjs_fs/api_rpc.js -> build/fs
+  CP    /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/mjs_fs/api_wifi.js -> build/fs
+  CP    /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/fs/api_arch_uart.js -> build/fs
+  CP    /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/fs/api_esp32.js -> build/fs
+  CP    /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/fs/init.js -> build/fs
+  CP    /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen/conf0.json -> build/fs
+  MKFS  /usr/local/bin/mkspiffs8 262144 4096 256 4096 build/fs -> /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/fw_temp/fs.img
+     Adding api_file.js: 2105
+     Adding ca.pem: 17334
+     Adding conf0.json: 2411
+     Adding api_math.js: 1890
+     Adding api_dataview.js: 7433
+     Adding api_wifi.js: 1020
+     Adding api_grove.js: 2327
+     Adding api_http.js: 3812
+     Adding api_bitbang.js: 815
+     Adding api_timer.js: 1736
+     Adding api_esp32.js: 460
+     Adding init.js: 3410
+     Adding api_config.js: 2170
+     Adding api_sys.js: 1641
+     Adding api_arch_uart.js: 1206
+     Adding api_gpio.js: 2731
+     Adding api_log.js: 2005
+     Adding api_dht.js: 1404
+     Adding api_adc.js: 803
+     Adding api_events.js: 3398
+     Adding api_net.js: 5122
+     Adding api_uart.js: 5772
+     Adding api_rpc.js: 2741
+     Image stats: size=262144, space: total=233681, used=82077, free=151604
+  GEN    /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/fw_temp/manifest.json
+  ZIP    /app/build/fw/higrow-esp32-last.zip
+     Adding /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/fw_temp/bootloader.bin
+     Adding /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/fw_temp/fs.img
+     Adding /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/fw_temp/higrow.bin
+     Adding /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/fw_temp/partitions_mgos.bin
+  Built higrow/esp32 version 1.0 (20180212-200252/???)
+To flash all build output, run 'make flash' or:
+python /opt/Espressif/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 1500000 --before default_reset --after hard_reset write_flash -z --flash_mode qio --flash_freq 40m --flash_size detect 0x1000 /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/bootloader.bin 0x10000 /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/higrow.bin 0x8000 /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/partitions_mgos.bin
+make: Leaving directory '/app'
+Success, built higrow/esp32 version 1.0 (20180212-200252/???).
+Firmware saved to build/fw.zip
